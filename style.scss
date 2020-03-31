@@ -11,15 +11,16 @@ body {
   background: $color-main;
 }
 .header {
-  background: #fff;
+  background: $color-sub;
   text-align: center;
   width: 100%;
-  border-bottom: 1px solid $color-sub;
+  border-bottom: 1px solid darken($color-sub, 5%);
 
   &__title {
     font-size: 30px;
     padding: 10px 0;
-    color: $color-sub;
+    color: #fff;
+    font-family: "Lobster", cursive;
   }
 }
 .form {
@@ -29,7 +30,7 @@ body {
   background: #fff;
   padding: 30px;
   box-sizing: border-box;
-  border: $color-main solid 5px;
+  border: 1px solid darken($color-sub, 5%);
   text-align: center;
   border-radius: 10px;
   &__item {

@@ -10,16 +10,17 @@ body {
 }
 
 .header {
-  background: #fff;
+  background: #99cb4a;
   text-align: center;
   width: 100%;
-  border-bottom: 1px solid #99cb4a;
+  border-bottom: 1px solid #8dc339;
 }
 
 .header__title {
   font-size: 30px;
   padding: 10px 0;
-  color: #99cb4a;
+  color: #fff;
+  font-family: "Lobster", cursive;
 }
 
 .form {
@@ -29,7 +30,7 @@ body {
   background: #fff;
   padding: 30px;
   box-sizing: border-box;
-  border: #dcedc1 solid 5px;
+  border: 1px solid #8dc339;
   text-align: center;
   border-radius: 10px;
 }
