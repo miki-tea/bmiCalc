@@ -28,7 +28,7 @@ $(function() {
   $("#tw_btn").click(function() {
     var bmi = $("#bmi").text();
     var tw_body = "今日のBMIは" + bmi + "でした。";
-    var url = "http://localhost:8888/bmicalc/";
+    var url = "https://bmicalc123.herokuapp.com/";
     window.open().location.href =
       "https://twitter.com/share?url=" +
       url +
